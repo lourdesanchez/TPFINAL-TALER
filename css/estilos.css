@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #52AFBF ;
+}
+
+
+/*----------------------------INTRO 1-----------------------------------*/
+.introduccion{
+    display: flex;
+    margin-top: 100px;
+}
+
+.introduccion .titulo h1{
+    font-family: 'Joti One';
+    font-style: bold;
+    font-size: 60px;
+    padding: 30px;
+    color: white;
+}
+
+.introduccion .titulo p{
+font-family: 'Inter';
+font-style: normal;
+font-size: 30px;
+padding: 0px 0px 0px 40px;
+/*line-height: 150%;*/
+}
+
+.introduccion .img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover; /*para que la imagen se adapte al resize*/
+}
+
+#intro1 .botonSiguiente{
+    display: flex;
+    justify-content: center;
+    /*transition: opacity .6s;
+    animation: bounce 1.2s infinite;
+    /*transition: max-height .5s ease-out, overflow-y 0.1s 0.5s;*/
+
+}
+
+#intro1 .botonSiguiente img{
+    margin: 40px;
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+}
+
+
+/*----------------------------INTRO 2-----------------------------------*/
+#intro2{
+    margin-top: 300px;
+}
+
+#intro2 .subtitulo h1{
+    font-style: bold;
+    font-size: 50px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    
+}
+
+#intro2 .objetivos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#intro2 .objetivos img{
+    width: 100%;
+    height: auto;
+}
+
+#intro2 .siguiente{
+    display: flex;
+    justify-content: center;
+}
+
+#intro2 .siguiente img{
+    margin: 80px;
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+}
+
+/*----------------------------INTRO 3-----------------------------------*/
+#intro3 {
+    margin-top: 400px;
+}
+
+#intro3 img{
+    width: 100%;
+    height: auto;
+}
+
+#intro3 .botonContinuar{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+#intro3 .botonContinuar button{
+    background: #25565F;
+    color: white;
+    border: none;
+    width: 190px;
+    height: 50px;
+    font-size: 1.1em;
+    cursor: pointer;
+    filter: drop-shadow(5px 5px 5px rgba(49, 10, 10, 0.50));
+    border-radius: 10px;
+}
+
+
